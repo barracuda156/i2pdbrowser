@@ -10,4 +10,4 @@ if [ -z $screenfind ]; then
 		exit 1;
 fi
 
-screen -Adm -S i2pd ./i2pd-osx --datadir=.
+screen -Adm -S i2pd /opt/local/bin/i2pd --datadir=.
